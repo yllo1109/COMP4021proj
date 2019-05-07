@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<leaderBroad>
+	<player id='000'>
+		<name>Captain Law</name>
+		<score>5000</score>
+	</player>
+	<player id='001'>
+		<name>Captain</name>
+		<score>4500</score>
+	</player>
+</leaderBroad>

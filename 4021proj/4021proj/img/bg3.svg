@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<svg width="1000" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <radialGradient cx="0.498718" cy="0.949219" id="svg_50" r="1.11299" spreadMethod="pad">
+   <stop offset="0.811218" stop-color="#210404"/>
+   <stop offset="1" stop-color="#defbfb"/>
+  </radialGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_10"/>
+  <g id="svg_17"/>
+  <g id="svg_19"/>
+  <rect fill="url(#svg_50)" height="500" id="svg_23" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="0" stroke-width="5" width="1000" x="0" y="1.5"/>
+ </g>
+</svg>

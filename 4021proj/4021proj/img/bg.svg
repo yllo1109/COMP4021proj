@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<svg width="1000" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<g id="background">
+                <linearGradient y2="1" x2="0" id="sky">
+                                    <stop offset="0" stop-color="darkblue"></stop>
+                                    <stop offset="1" stop-color="skyblue"></stop>
+                                </linearGradient>
+
+                <rect height="500" width="1000" y="0" x="0" stroke="none" fill="url(#sky)"></rect>
+</g>
+</svg>

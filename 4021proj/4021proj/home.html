@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>COMP4021 Project</title>
+		<script type="text/javascript" src="js/loop.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	</head>
+	<style>
+	button {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+	}
+	</style>
+	<body>
+
+		<div style="float: left;">
+			<canvas id="canvas" width="1000" height="500" tabindex="1">
+			</canvas>
+		</div>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<div>
+			<button onClick="window.location.reload();">Restart</button>
+			<button onclick="np()">New Player</button>
+			<h3>Instruction:</h3>
+			<h4>Using arrow key to control the plane,</h4>
+			<img src="img/arrow_key.svg">
+			<h4>and using space bar to fire!</h4> 
+			<img src="img/space_key.svg">
+			<h4>You would be a soldier in this game to protect the airspace, you need to destroy the enemy planes to prevent them from crossing over your airspace. (Lives on the top right corner of the gaming canvas denote the remaining chance)</h4>
+			<h4>
+			Remember to avoid any collision of your plane, in order to keep you on the battlefield. (Instant death)</h4>
+			<h4>
+			Let's click on the canvas to start the game!</h4>
+			<h4>
+			Remark: Getting to some score point (i.e. 1000,2000,3000) would have a wave attack and change of background, some enemy is harder to identify in a dark situation.</h4>
+	</div>
+	<div id="leaderBroad"></div>
+    </div>
+	</body>
+</html>
+
